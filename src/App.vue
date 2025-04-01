@@ -1,14 +1,26 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import Card from './components/Card.vue'
-import Navar from './components/Navar.vue'
-import Carrusel from './components/Carrusel.vue'
+import Eventos from './components/Eventos/Eventos.vue';
+//import HelloWorld from './components/Horario/HelloWorld.vue'
+//import Horario from './components/Horario/Horario.vue';
+//import Pradre from './components/Props/Pradre.vue';
+//import HolaMundo1 from "./components/Ciclos/HolaMundo1.vue";
+//import Recorrido from "./components/Ciclos/Recorrido.vue";
+//import HelloWorld from "./components/Horario/HelloWorld.vue";
+import CalculadoraV1 from './components/Calculadora/CalculadoraV1.vue';
+import CalculadoraV2 from './components/Calculadora/CalculadoraV2.vue';
+
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <!--HelloWorld nombre="Yael de Jesus"-->
+  <!--HelloWorld nombre="Yael de Jesus"-->
+  <!--HolaMundo1 msg="Vite + Vue" /-->
+  <!--HelloWorld msg="Vite + Vue" /-->
+  <!--Pradre /-->
+  <!--Recorrido /-->
+  <!--Eventos /-->
+  <!--CalculadoraV1 /-->
+  <CalculadoraV2 />
 </template>
 
-<style scoped>
-
-</style>
+<style></style>
